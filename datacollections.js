@@ -59,3 +59,6 @@ ht.pop()
 ht.splice(1, 0, { id: "48", name: "Barry", occupation: "Runner", age: "25" })
 ht.push({ id: "7", name: "Bilbo", occupation: "None", age: "111" })
 console.log(ht)
+
+//For part 5 we will have to extract keys from hashes and then 
+//loop through the hashes to put the values back into csv format.
