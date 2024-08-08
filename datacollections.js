@@ -73,7 +73,10 @@ for (i=0; i<ht.length; i++) {
 }
 let rhs = ""
 for (i=0;i<rha.length;i++) {
-    
+    for (a=0;a<rha[i].length;a++) {
+        rhs += rha[i][a] + ","
+    }
+    rhs += "\n"
 }
-console.log(rha)
+console.log(rhs)
 
