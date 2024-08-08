@@ -51,3 +51,11 @@ for (i=0;i<cell1.length; i++) {
         hash3[cell1[i]] = cell4[i]
         hash4[cell1[i]] = cell5[i]
 }
+
+let ht = [hash1, hash2, hash3, hash4]
+console.log(ht)
+
+ht.pop()
+ht.splice(1, 0, { id: "48", name: "Barry", occupation: "Runner", age: "25" })
+ht.push({ id: "7", name: "Bilbo", occupation: "None", age: "111" })
+console.log(ht)
