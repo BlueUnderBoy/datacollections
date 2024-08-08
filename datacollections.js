@@ -62,3 +62,20 @@ console.log(ht)
 
 //For part 5 we will have to extract keys from hashes and then 
 //loop through the hashes to put the values back into csv format.
+
+let rha = []
+for (i=0; i<ht.length; i++) {
+    if (i==0) {
+        var array =[]
+        array.push(Object.keys(ht))
+        rha.push(array)
+    }
+    else {
+        var array = []
+        for (a=0;a<ht.length;a++) {
+            array.push(ht[i][a])
+        }
+        rha.push[array]
+    }
+}
+console.log
