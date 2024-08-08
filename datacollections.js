@@ -62,7 +62,6 @@ console.log(ht)
 
 //For part 5 we will have to extract keys from hashes and then 
 //loop through the hashes to put the values back into csv format.
-
 let rha = []
 for (i=0; i<ht.length; i++) {
     if (i==0) {
@@ -79,3 +78,6 @@ for (i=0; i<ht.length; i++) {
     }
 }
 console.log
+
+//For part 5 we will have to extract keys from hashes and then 
+//loop through the hashes to put the values back into csv format.
