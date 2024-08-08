@@ -45,14 +45,9 @@ let hash1 = {}
 let hash2 = {}
 let hash3 = {}
 let hash4 = {}
-for (i=0;i<cell1.length;i++) {
-    if (i == 0) {
+for (i=0;i<cell1.length; i++) {
         hash1[cell1[i]] = cell2[i]
         hash2[cell1[i]] = cell3[i]
         hash3[cell1[i]] = cell4[i]
         hash4[cell1[i]] = cell5[i]
-    }
-    else if (i == 1) {
-        hash1[cell1[i]] = cell1[i+3]
-    }
 }
