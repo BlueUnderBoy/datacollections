@@ -35,11 +35,11 @@ for (i=0;i<ns+1;i++) {
         console.log(cell5);
     } 
 }
-console.log(cell1);
-console.log(cell2);
-console.log(cell3);
-console.log(cell4);
-console.log(cell5);
+//console.log(cell1);
+//console.log(cell2);
+//console.log(cell3);
+//console.log(cell4);
+//console.log(cell5);
 
 let hash1 = {}
 let hash2 = {}
@@ -53,7 +53,7 @@ for (i=0;i<cell1.length; i++) {
 }
 
 let ht = [hash1, hash2, hash3, hash4]
-console.log(ht)
+//console.log(ht)
 
 ht.pop()
 ht.splice(1, 0, { id: "48", name: "Barry", occupation: "Runner", age: "25" })
@@ -63,19 +63,17 @@ console.log(ht)
 //For part 5 we will have to extract keys from hashes and then 
 //loop through the hashes to put the values back into csv format.
 let rha = []
+var array = []
+array = Object.keys(ht[0])
+rha.push(array)
 for (i=0; i<ht.length; i++) {
-    if (i==0) {
-        var array =[]
-        array.push(Object.keys(ht))
-        rha.push(array)
-    }
-    else {
         var array = []
-        for (a=0;a<ht.length;a++) {
-            array.push(ht[i][a])
-        }
-        rha.push[array]
-    }
+        array = Object.values(ht[i])
+        rha.push(array)
 }
-console.log
+let rhs = ""
+for (i=0;i<rha.length;i++) {
+    
+}
+console.log(rha)
 
